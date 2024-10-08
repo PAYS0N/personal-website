@@ -54,14 +54,14 @@ a {
 .header-subinfo{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     gap: 24px;
 
-    padding: 50px 0;
+    padding: 50px 16px;
 }
 
 .header-signupblock{
-    width: 300px;
+    width: 400px;
     flex: 0 1 auto;
 
     display: flex;
@@ -100,9 +100,9 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 24px;
+    gap: 36px;
 
-    padding: 50px;
+    padding: 75px 0;
 }
 
 .random-title {
@@ -131,6 +131,7 @@ a {
 .random-image{
     height: auto;
     width: 200px;
+    border-radius: 8px;
 }
 
 .quote-section {
@@ -140,11 +141,10 @@ a {
 
     background-color: #e5e7eb;
 
-    padding: 50px 0;
+    padding: 80px 0;
 }
 
 .quote-block {
-    flex: 0 1 auto;
     width: 400px;
 
     display: flex;
@@ -156,8 +156,17 @@ a {
 
 }
 
+.quote {
+    font-size: 24px;
+    font-weight: 100;
+    font-style: italic;
+}
+
 .attribution {
     align-self: flex-end;
+
+    font-size: 18px;
+    font-weight: 700;
 }
 
 .action {
@@ -169,7 +178,7 @@ a {
 }
 
 .action-block {
-    width: 500px;
+    width: 700px;
 
     display: flex;
     justify-content: space-between;
@@ -179,6 +188,16 @@ a {
     border-radius: 12px;
 
     padding: 40px;
+}
+
+.call-to-action-subtext{
+    font-size: 12.5px;
+}
+
+.action-text {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
 }
 
 .action-button {
@@ -199,5 +218,5 @@ a {
     background-color: #1f2937;
     color: white;
 
-    padding: 12px 150px;
+    padding: 36px 150px;
 }
