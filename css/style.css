@@ -27,7 +27,6 @@ a {
     flex-direction: column;
 
     background-color: #1f2937;
-    color: white;
 
     padding: 0 150px;
 }
@@ -49,7 +48,7 @@ a {
 }
 
 .link {
-    color: white;    
+    color: #e5e7eb;
 }
 
 .header-subinfo{
@@ -57,6 +56,8 @@ a {
     align-items: center;
     justify-content: center;
     gap: 24px;
+
+    padding: 50px 0;
 }
 
 .header-signupblock{
@@ -67,12 +68,23 @@ a {
     flex-direction: column;
     align-items: flex-start;
 
+    color: #e5e7eb;
+
     gap: 12px;
 }
 
 .header-title{
-    font-size: 36px;
-    font-weight: 700;
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.signup-button {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 8px;
+
+    padding: 8px 12px;
 }
 
 .center {
@@ -95,7 +107,8 @@ a {
 
 .random-title {
     font-size: 36px;
-    font-weight: 700;
+    font-weight: 900;
+    color: #1f2937;
 }
 
 .random-images{
@@ -104,9 +117,15 @@ a {
 }
 
 .img-text-pair{
+    width: 200px;
+
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 12px;
+
+    text-align: center;
+
 }
 
 .random-image{
@@ -119,6 +138,8 @@ a {
     align-items: center;
     justify-content: center;
 
+    background-color: #e5e7eb;
+
     padding: 50px 0;
 }
 
@@ -130,6 +151,8 @@ a {
     flex-direction: column;
     align-items: center;
     gap: 8px;
+
+    color: #1f2937;
 
 }
 
@@ -151,8 +174,21 @@ a {
     display: flex;
     justify-content: space-between;
 
-    background-color: blue;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 12px;
+
     padding: 40px;
+}
+
+.action-button {
+    background-color: #3882f6;
+    border-color: white;
+    border-width: 3px;
+    border-radius: 8px;
+    color: white;
+
+    padding: 8px 12px;
 }
 
 .footer {
@@ -160,7 +196,8 @@ a {
     justify-content: center;
     align-items: center;
 
-    background-color: gray;
+    background-color: #1f2937;
+    color: white;
 
     padding: 12px 150px;
 }
